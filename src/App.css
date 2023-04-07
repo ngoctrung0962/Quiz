@@ -1,0 +1,63 @@
+/* Reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.question__container {
+  border-radius: 12px;
+  background: #0059b2;
+  padding: 1rem;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.question__title h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.question__choose {
+  padding: 1rem;
+  border-radius: 12px;
+  background: #fff;
+  margin-bottom: 1rem;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.question__choose.active {
+  background: #5090d3;
+  border: 1px solid #5090d3;
+}
+.question__choose.active p {
+  color: #fff;
+}
+.question__choose:hover {
+  background: #5090d3;
+
+  /* Làm mờ không dùng opacity*/
+  /* opacity: 0.8; */
+}
+.question__choose:hover.question__choose p {
+  color: #fff;
+}
+.question__choose p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #0059b2;
+}
