@@ -13,9 +13,12 @@
     "@emotion/styled": "^11.10.6",
     "@mui/material": "^5.11.16",
     "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-router-dom": "^6.10.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
